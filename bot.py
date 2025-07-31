@@ -4,10 +4,10 @@ import logging
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
 # توكن تلغرام (⚠️ استبدله بتوكن البوت الخاص بك)
-TELEGRAM_TOKEN = "ضع_هنا_توكن_بوت_تلغرام"
+TELEGRAM_TOKEN = "7483911671:AAHmk-gexNiusOMcjz90OF2chvy7XFpzdtE"
 
 # مفتاح OpenAI (⚠️ استبدله بـ API Key من https://platform.openai.com/)
-OPENAI_API_KEY = "ضع_هنا_API_Key_الخاصة_بـ_OpenAI"
+OPENAI_API_KEY = "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"
 
 # إعداد واجهة OpenAI
 openai.api_key = OPENAI_API_KEY
